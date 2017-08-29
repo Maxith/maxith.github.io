@@ -4,10 +4,12 @@ title:  "spring-cloud 学习笔记(0)"
 tags : 
     - java
     - spring-cloud
-categories: spring-cloud 学习笔记
+categories: spring-cloud
 ---
 
-##1.什么是spring-cloud
+{:toc}
+
+## 1.什么是spring-cloud
 
 官方介绍
 >Spring Cloud provides tools for developers to quickly build 
@@ -43,9 +45,9 @@ GOOGLE翻译:
 >Spring Cloud是**一系列框架的有序集合**。它利用Spring Boot的开发便利性巧妙地**简化了分布式系统基础设施的开发**，如服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等，都可以用Spring Boot的开发风格做到一键启动和部署.Spring并没有重复制造轮子，它只是将目前各家公司开发的比较成熟、经得起实际考验的服务框架组合起来，通过Spring Boot风格进行再封装屏蔽掉了复杂的配置和实现原理，最终给开发者留出了**一套简单易懂、易部署和易维护的分布式系统开发工具包**。
 
 
-####总的来说,spring cloud就是一堆用于构建分布式系统的工具的集合.
+#### 总的来说,spring cloud就是一堆用于构建分布式系统的工具的集合.
 
-##2.spring-cloud 和 spring-boot 的关系
+## 2.spring-cloud 和 spring-boot 的关系
 
 要理解这两者的关系首先需要知道**什么是SPRING-BOOT**。
 
@@ -53,13 +55,13 @@ GOOGLE翻译:
 
 >Spring Boot正是在这样的一个背景下被抽象出来的**开发框架**，它**本身并不提供Spring框架的核心特性以及扩展功能**，只是用于快速、敏捷地开发新一代基于Spring框架的应用程序。也就是说，它并不是用来替代Spring的解决方案，而是和Spring框架紧密结合用于提升Spring开发者体验的工具。同时它集成了大量常用的第三方库配置（例如Jackson, JDBC, Mongo, Redis, Mail等等），Spring Boot应用中这些第三方库几乎可以零配置的开箱即用（out-of-the-box），大部分的Spring Boot应用都只需要非常少量的配置代码，开发者能够更加专注于业务逻辑。
 
-####spring - boot 的特点
+#### spring - boot 的特点
 > - 为所有Spring开发提供一个从根本上更快，且随处可得的入门体验。
 > - 开箱即用，但通过不采用默认设置可以快速摆脱这种方式。
 > - 提供一系列大型项目常用的非功能性特征，比如：内嵌服务器，安全，指标，健康检测，外部化配置。
 > - 绝对没有代码生成，也不需要XML配置。
 
-####那么,spring - boot 和 spring - cloud 是什么关系呢?
+#### 那么,spring - boot 和 spring - cloud 是什么关系呢?
 
 首先 spring-boot 是
 > **开发框架** 且 **并不提供Spring框架的核心特性以及扩展功能**
@@ -74,16 +76,16 @@ GOOGLE翻译:
 > **spring > spring boot > spring cloud**
 
 
-##3.spring-cloud所包含的子项目
+## 3.spring-cloud所包含的子项目
 
-###核心项目:
-####1.Spring Cloud Config -- 配置中心
+### 核心项目:
+#### 1.Spring Cloud Config -- 配置中心
 >Spring Cloud Config项目是一个解决分布式系统的配置管理方案。它包含了Client和Server两个部分。
 
-####2.Spring Cloud Bus -- 事件、消息总线
+#### 2.Spring Cloud Bus -- 事件、消息总线
 >事件、消息总线，用于在集群（例如，配置变化事件）中传播状态变化，可与Spring Cloud Config联合实现热部署。
 
-####3.Netflix家族
+#### 3.Netflix家族
 
 - **Eureka** (spring cloud中最重要的功能组件)
 	> 服务中心，云端服务发现，一个基于 REST 的服务，用于定位服务，以实现云端中间层服务发现和故障转移
@@ -96,23 +98,23 @@ GOOGLE翻译:
 - **Ribbon**
 	> 提供云端负载均衡，有多种负载均衡策略可供选择，可配合服务发现和断路器使用。
 
-####4.Spring Cloud Consul -- 服务发现与配置工具
+#### 4.Spring Cloud Consul -- 服务发现与配置工具
 
 >封装了Consul操作，consul是一个服务发现与配置工具，与Docker容器可以无缝集成。
 
-####5.Spring Cloud for Cloud Foundry -- 通过Oauth2协议绑定服务到CloudFoundry
+#### 5.Spring Cloud for Cloud Foundry -- 通过Oauth2协议绑定服务到CloudFoundry
 
 >通过Oauth2协议绑定服务到CloudFoundry，CloudFoundry是VMware推出的开源PaaS云平台。
 
-####6.Spring Cloud Sleuth -- 日志收集工具包
+#### 6.Spring Cloud Sleuth -- 日志收集工具包
 
 >日志收集工具包，封装了Dapper和log-based追踪以及Zipkin和HTrace操作，为SpringCloud应用实现了一种分布式追踪解决方案。
 
-####7.其他工具
+#### 7.其他工具
 >Spring Cloud Security、Spring Cloud Sleuth、Spring Cloud Data Flow、Spring Cloud Stream、Spring Cloud Task、Spring Cloud Zookeeper、Spring Cloud Connectors、Spring Cloud Starters、Spring Cloud CLI 等等
 
 
-##结束
+## 结束
 
 >**本文部分文本来源于互联网**
 
