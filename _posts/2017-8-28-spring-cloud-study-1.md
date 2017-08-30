@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "spring-cloud 学习笔记(0)"
+date: 2017-8-28 16:45:07
 tags : 
     - java
     - spring-cloud
@@ -8,6 +9,8 @@ categories: spring-cloud
 ---
 
 {:toc}
+
+# STEP 0 : hello spring-cloud
 
 ## 1.什么是spring-cloud
 

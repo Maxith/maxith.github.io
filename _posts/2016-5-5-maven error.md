@@ -18,7 +18,7 @@ Plugin execution not covered by lifecycle configuration org.apache.felix:maven-b
 
 m2e在eclipse中执行maven生命周期构建，配置完毕后执行Maven构建后的项目。这是被多个不同Maven目标控制的。有些目标在workspace层面控制，有些在project/.setting下控制。
 
-<!-- more -->
+<!--more-->
 
 但是在特殊情况下还是会有异常。主要原因有2个：
 
