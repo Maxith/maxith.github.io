@@ -8,7 +8,7 @@ tags :
 categories: spring-cloud
 ---
 
-##注解@EnableDiscoveryClient，@EnableEurekaClient的区别[转]
+## 注解@EnableDiscoveryClient，@EnableEurekaClient的区别[转]
 
 SpringCloud中的`Discovery Service`有多种实现，比如：eureka, consul, zookeeper。
 
@@ -19,7 +19,5 @@ SpringCloud中的`Discovery Service`有多种实现，比如：eureka, consul, z
 
 如果你的classpath中添加了eureka，则它们的作用是一样的。
 
-####来源:
+#### 来源:
 [夜闯秋名山吃瓜皮 : 注解@EnableDiscoveryClient，@EnableEurekaClient的区别](http://blog.csdn.net/ezreal_king/article/details/72594535)
-
-<!--more-->

@@ -9,7 +9,7 @@ categories: spring-cloud
 ---
 {:toc}
 
-# STEP 1 : Eureka 微服务的注册与发现
+# STEP 1 : Eureka 微服务的注册
 
 作为spring-cloud中最重要最核心的组件,spring-cloud学习的第一步当然是学习使用Eureka.
 
@@ -18,7 +18,7 @@ categories: spring-cloud
 
 >Eureka是Netflix开源的一款**提供服务注册和发现**的产品，它提供了完整的服务注册和发现。也是spring-cloud体系中最重要最核心的组件之一。
 
-既然是提供**服务注册与发现**,那当然需要有**server(服务注册中心)** 和 **client(服务提供方)** , 那么接下来,我们分别对server和客client进行学习.
+既然是提供**服务注册与**,那当然需要有**server(服务注册中心)** 、**client(服务提供方)** 以及** consumer（服务消费者）**,由于篇幅有限,接下来,我们只针对对server和client进行学习.
 
 <!--more-->
 
