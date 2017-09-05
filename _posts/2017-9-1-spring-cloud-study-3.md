@@ -67,7 +67,7 @@ public class SpringCloudServerConsumerApplication {
 
 	//spring 提供的更加简洁的url访问框架
     @Bean
-    public RestTemplate restTemplate(ClientHttpRequestFactory factory){
+    public RestTemplate restTemplate(@Qualifier("simpleClientHttpRequestFactory") ClientHttpRequestFactory factory){
         return new RestTemplate(factory);
     }
 }
