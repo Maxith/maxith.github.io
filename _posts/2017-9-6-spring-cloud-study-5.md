@@ -47,6 +47,9 @@ Spring Cloud Config的原理如图所示:
 {% endhighlight %}
 
 然后在Application启动类上添加 `@EnableConfigServer` 注解:
+
+由于使用原有服务进行改造的，所以已经包含了eureka注册中心的配置。即在Application类中添加 `@EnableDiscoveryClient` 注解。
+
 {% highlight java %}  
 @SpringBootApplication
 @EnableEurekaClient
@@ -147,7 +150,14 @@ spring.cloud.config.uri=http://127.0.0.1:1001/		//配置中心url
 spring.cloud.config.name=app						//配置名称
 spring.cloud.config.profile=dev						//配置文件类型
 spring.cloud.config.label=master					//git分支，默认master
+
+spring.cloud.config.discovery.enabled=true			//开启Config服务发现支持
+spring.cloud.config.discovery.service-id=spring-cloud-eureka-client	//指定server端的name,也就是server端spring.application.name的值
+
+
 {% endhighlight %}
+
+在Application类中添加`@EnableDiscoveryClient`注解，激活服务发现功能。
 
 ### 3.使用配置
 
