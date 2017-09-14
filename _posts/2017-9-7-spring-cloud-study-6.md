@@ -35,6 +35,8 @@ security.user.name=userName		//用户名默认是user
 security.user.password=password		//默认使用随机密码写入到log中
 {% endhighlight %}
 
+<!--more-->
+
 ##### 客户端配置配置中心的密码：
 
 在客户端的bootstrap.properties中添加配置：
