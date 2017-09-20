@@ -127,7 +127,7 @@ management.security.enabled=false
 
 ### 2. 客户端修改
 
-#### pom.xml中引入amqp支持
+**pom.xml中引入amqp支持**  
 {% highlight xml %}  
 <dependency>
     <groupId>org.springframework.cloud</groupId>
@@ -135,7 +135,7 @@ management.security.enabled=false
 </dependency>
 {% endhighlight %}
 
-#### 配置rabbitMQ
+**配置rabbitMQ**  
 {% highlight xml %}  
 spring.rabbitmq.host=192.168.1.80
 spring.rabbitmq.port=5672
@@ -143,7 +143,7 @@ spring.rabbitmq.username=amqp
 spring.rabbitmq.password=123456
 {% endhighlight %}
 
-#### 添加 `@RefreshScope` 注解
+**添加 `@RefreshScope` 注解**
 
 需要给加载变量的类上面加载`@RefreshScope`，在执行更新操作的时候就会更新此类下面的变量值。
 

@@ -52,7 +52,7 @@ kramdown:
     auto_ids: true
     footnote_nr: 1
     entity_output: as_char
-    toc_levels: 2..6
+    toc_levels: 1..3
     smart_quotes: lsquo,rsquo,ldquo,rdquo
     use_coderay: false
 
@@ -87,7 +87,7 @@ gems:
 favicon: /assets/images/favicon.jpg
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT, simpleyyt, yitao"
+keywords: "Jekyll,java,blog,Maxith"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -159,9 +159,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-# scheme: Muse
+scheme: Muse
 #scheme: Mist
-scheme: Pisces
+#scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -255,7 +255,6 @@ toc:
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false 
 
-
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
@@ -273,7 +272,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: hide
+  display: always
   #display: always
   #display: hide
   #display: remove
@@ -338,7 +337,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
