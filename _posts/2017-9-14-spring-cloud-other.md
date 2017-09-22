@@ -8,6 +8,8 @@ tags :
 categories: spring-cloud
 ---
 
+{:toc}
+
 ## [外传] Spring Cloud Eureka Server服务注册中心高可用方案
 
 **在微服务架构中，作为核心的服务注册中心是整个系统的关键，它的高可用性决定了系统的整体的稳定性。**

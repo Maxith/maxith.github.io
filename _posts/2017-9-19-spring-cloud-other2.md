@@ -8,6 +8,8 @@ tags:
 categories: spring-cloud
 ---
 
+{:toc}
+
 ## [外传] 关于服务发现框架Consul 、Zookeeper 、Eureka
 
 作为分布式应用的基础，服务注册与发现是至关重要的，而Consul 、Zookeeper 、Eureka作为时下最火的三个框架自然也是需要拿出来比一比的。
