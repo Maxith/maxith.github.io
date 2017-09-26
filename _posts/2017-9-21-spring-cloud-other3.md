@@ -121,7 +121,8 @@ public class ServerCallController {
 
 > - [声明式REST客户端：Feign](http://spring-cloud.io/reference/feign/#feignhystrix)  
 > - [Lin_XJ : Spring Cloud 微服务(六) 服务消费Feign](http://www.jianshu.com/p/07303bc4b015)  
-> - [秋雨霏霏 : [Spring Cloud] 4.6 Declarative REST Client：Feign](https://my.oschina.net/roccn/blog/803731)
+> - [秋雨霏霏 : [Spring Cloud] 4.6 Declarative REST Client：Feign](https://my.oschina.net/roccn/blog/803731)  
+> - [铁汤 : Feign正确的使用姿势和性能优化注意事项](http://www.jianshu.com/p/191d45210d16)
 
 ## 结束
 
