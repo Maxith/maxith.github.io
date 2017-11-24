@@ -24,6 +24,8 @@ categories: spring-cloud
 > - 相比nginx，API Gateway是一个简化的轻量级的网关，它简化了内部服务相互调用的复杂度。  
 > - 相比nginx，API Gateway能动态修改服务的地址，以及服务的启用和关闭，而不需要复杂的配置文件。
 
+<!--more-->
+
 ## Zuul  
 
 作为Netflix全家桶之一，zuul承担了API Gateway的功能，它拥有以下功能：
