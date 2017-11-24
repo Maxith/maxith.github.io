@@ -224,6 +224,7 @@ font:
 social:
   GitHub: https://github.com/Maxith
   知乎: http://www.zhihu.com/people/zhou-you-95-41
+  V2EX: https://www.v2ex.com/member/zhouyou457
 
 
 # Social Links Icons
@@ -434,7 +435,7 @@ changyan:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-110079964-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
